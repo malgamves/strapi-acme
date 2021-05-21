@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_site_components_image_texts",
+  "info": {
+    "name": "ImageText",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ImageTextImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Subtext": {
+      "type": "string"
+    },
+    "TitleText": {
+      "type": "string"
+    },
+    "ImageTextDescription": {
+      "type": "richtext"
+    }
+  }
+}

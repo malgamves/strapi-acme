@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_site_components_header_banners",
+  "info": {
+    "name": "HeaderBanner",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "HeaderText": {
+      "type": "string"
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "core-components.button"
+    }
+  }
+}

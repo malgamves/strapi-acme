@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_core_components_feature_sets",
+  "info": {
+    "name": "FeatureSet",
+    "icon": "border-style"
+  },
+  "options": {},
+  "attributes": {
+    "Benefit": {
+      "type": "string"
+    },
+    "BenefitDescription": {
+      "type": "richtext"
+    }
+  }
+}

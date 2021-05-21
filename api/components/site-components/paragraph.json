@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_site_components_paragraphs",
+  "info": {
+    "name": "Paragraph",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Text": {
+      "type": "richtext"
+    },
+    "Quote": {
+      "type": "boolean"
+    },
+    "QuoterName": {
+      "type": "string"
+    },
+    "QuoterPosition": {
+      "type": "string"
+    }
+  }
+}

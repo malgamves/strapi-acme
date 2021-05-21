@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_site_components_heroes",
+  "info": {
+    "name": "Hero",
+    "icon": "chess-rook",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "MainTextLine1": {
+      "type": "string"
+    },
+    "MainTextLine2": {
+      "type": "string"
+    },
+    "HeroDescription": {
+      "type": "text"
+    },
+    "HeroButton": {
+      "type": "component",
+      "repeatable": true,
+      "component": "core-components.button",
+      "max": 2,
+      "required": true
+    },
+    "HeroImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

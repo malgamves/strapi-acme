@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "navbars",
+  "info": {
+    "name": "Navbar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "NavPages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "core-components.button",
+      "max": 4
+    }
+  }
+}

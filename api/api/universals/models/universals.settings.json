@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "universals",
+  "info": {
+    "name": "Universals"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "Name"
+    },
+    "PageBuilder": {
+      "type": "dynamiczone",
+      "components": [
+        "site-components.cta",
+        "site-components.feature-section",
+        "site-components.header-banner",
+        "site-components.hero",
+        "site-components.image-text",
+        "site-components.paragraph"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_site_components_ctas",
+  "info": {
+    "name": "CTA",
+    "icon": "comment-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "CtaText": {
+      "type": "string"
+    },
+    "TextColoured": {
+      "type": "string"
+    },
+    "Buttons": {
+      "type": "component",
+      "repeatable": true,
+      "max": 2,
+      "component": "core-components.button"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_core_components_buttons",
+  "info": {
+    "name": "Button",
+    "icon": "bullseye"
+  },
+  "options": {},
+  "attributes": {
+    "ButtonText": {
+      "type": "string"
+    },
+    "ButtonURL": {
+      "type": "string"
+    }
+  }
+}

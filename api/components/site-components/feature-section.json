@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_site_components_feature_sections",
+  "info": {
+    "name": "FeatureSection",
+    "icon": "border-all",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "FeatureName": {
+      "type": "string"
+    },
+    "FeatureSectionTitle": {
+      "type": "string"
+    },
+    "FeatureSectionDescription": {
+      "type": "text"
+    },
+    "FeatureSet": {
+      "type": "component",
+      "repeatable": true,
+      "component": "core-components.feature-set",
+      "max": 4
+    }
+  }
+}
